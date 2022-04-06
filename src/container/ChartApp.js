@@ -15,11 +15,15 @@ const itunesCharts = function() {
     .then(fetchedCharts => setCharts(fetchedCharts.feed.entry));
     console.log(charts);
 }
+
+    const playPreview = (index) => {
+        console.log(`song:${index}`)
+    }
     
     return(
         <div>
             <h1>The ChartApp</h1>
-            <SongList charts={charts}/>
+            <SongList charts={charts} playPreview={playPreview}/>
         </div>
     )
 }
