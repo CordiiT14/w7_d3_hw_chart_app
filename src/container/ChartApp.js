@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import SongList from '../components/SongList';
+import './ChartApp.css'
 
 const ChartApp = () => {
 

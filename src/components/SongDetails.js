@@ -1,13 +1,12 @@
 import React from "react";
+import "./SongList.css";
 
 const SongDetails = ({songNodes}) => {
 
     return(
-        <div>
             <ul>
                 {songNodes}
             </ul>
-        </div>
     )
 };
 
