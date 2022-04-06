@@ -7,14 +7,17 @@ h2 {
     color: white;
 }
 
-.song-card{
+.song-card-background{
     margin: 10px;
-    padding:5px;
-    border-radius: 5px;;
     background: linear-gradient(#70C1B3, #E4E9B2, #9198e5);
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px #e1e3c7;
+}
+
+.song-card{
+    padding:5px;
     width: 350px;
     height: 450px;
-    box-shadow: 5px 5px 2px #e1e3c7;
 }
 
 .player {
@@ -26,6 +29,7 @@ h2 {
 
 img {
     box-shadow: 2px 2px 2px #9198e5;
+    border-radius: 5px;
 }
 
 li {
