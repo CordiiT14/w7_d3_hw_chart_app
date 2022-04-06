@@ -4,10 +4,9 @@ const SongDetails = ({songNodes}) => {
 
     return(
         <div>
-            <h4>Song</h4>
-            <ol>
+            <ul>
                 {songNodes}
-            </ol>
+            </ul>
         </div>
     )
 };

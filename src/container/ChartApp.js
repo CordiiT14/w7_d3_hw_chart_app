@@ -18,7 +18,7 @@ const itunesCharts = function() {
     
     return(
         <div>
-            <h1>The wonderful ChartApp</h1>
+            <h1>The ChartApp</h1>
             <SongList charts={charts}/>
         </div>
     )

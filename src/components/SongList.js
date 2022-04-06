@@ -6,15 +6,19 @@ const SongList = ({charts}) => {
     const songNodes = charts.map((song, index) => {
         return (
         <li key={index} > 
-        Artist: {song["im:artist"]["label"]}
-        Song Title: {song.title.label}
+        <div>
+        <h2>Chart # {index+1}</h2>
+        <img src={song["im:image"][2]["label"]} alt="Album Cover"/>
+        <h3>Song Title: {song.title.label}</h3>
+        <h4>Artist: {song["im:artist"]["label"]}</h4>
+        
+        </div>
         </li>
         )
     });
 
     return(
         <div>
-            <h2>SongList will go here</h2>
             <SongDetails songNodes={songNodes}/>
         </div>
     )
