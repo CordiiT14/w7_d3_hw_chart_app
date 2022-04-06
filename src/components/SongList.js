@@ -9,7 +9,7 @@ const SongList = ({charts}) => {
         return (
         <li key={index} > 
             <div className="song-card">
-                <h2>Chart # {index+1}</h2>
+                <h2># {index+1}</h2>
                 <img src={song["im:image"][2]["label"]} alt="Album Cover"/>
                 <h3>{song["im:name"]["label"]}</h3>
                 <h4>{song["im:artist"]["label"]}</h4>

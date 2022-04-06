@@ -3,20 +3,29 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
 }
+h2 {
+    color: white;
+}
 
 .song-card{
     margin: 10px;
     padding:5px;
     border-radius: 5px;;
-    background-color: #73ba9b;
+    background: linear-gradient(#70C1B3, #E4E9B2, #9198e5);
     width: 350px;
     height: 450px;
+    box-shadow: 5px 5px 2px #e1e3c7;
 }
 
 .player {
     display: flex;
     flex-direction: column;
     align-content: flex-end;
+    
+}
+
+img {
+    box-shadow: 2px 2px 2px #9198e5;
 }
 
 li {
