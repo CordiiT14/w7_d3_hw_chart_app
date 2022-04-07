@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import './fonts/Rubik-Italic-VariableFont_wght.ttf';
+import './fonts/Rubik-VariableFont_wght.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
